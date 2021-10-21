@@ -6,15 +6,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 //const _template = document.getElementById("21bc2ea02373fb14dfe34e490d52812f67b0a197f52668dc9faf7fb547f341a1");
 //onClick={generateReport}
+
+
 function App() {
   return (
     <>
       <Router>
         <Switch>
           <Route path="/" exact>
-            <div className="container mt-5">
+            <div className="site-wrapper-inner">
               <div className="btn-group">
-                <Button onClick= {generateReport}variant="secondary" size="md">
+                <Button onClick= {generateReport} variant="secondary" size="md">
                   Generate Report
                 </Button>{" "}
               </div>
